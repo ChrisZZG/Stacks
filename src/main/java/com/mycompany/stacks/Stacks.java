@@ -47,7 +47,13 @@ public class Stacks {
         System.out.println("--------------------------");
         
         //buscar un elemento en la pila -1=ausencia y +1=presencia
-        System.out.println("Existe el valor 3: " + numeros.search(3));
+        System.out.println("Existe el siguient valor?");
+        int result = numeros.search(3);
+        if(result == +1){
+            System.out.println("El valor buscado SI Existe!");
+        }else{
+            System.out.println("El valor buscado NO Existe!");
+        }
         System.out.println("-------------");
         
         //Cual es el ultimo LEFT elemento agregado a la pila
